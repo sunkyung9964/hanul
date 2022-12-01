@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select department_id, location_id, department_name
+from departments
+where location_id in (select location_id
+                        from locations
+                        where country_id = 'UK');]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669785162497]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.012]]></execTime>
+	</historyItem>
+</history>

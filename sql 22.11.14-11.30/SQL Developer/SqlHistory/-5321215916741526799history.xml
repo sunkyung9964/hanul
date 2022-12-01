@@ -1,0 +1,24 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (1, '홍길동', 20, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);
+insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (2, '김길동', 21, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);
+insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (3, '최길동', 22, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);
+insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (4, '박길동', 23, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);
+insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (5, '이길동', 24, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);
+insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (6, '한길동', 25, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);
+insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (7, '차길동', 26, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1668414190579]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.045]]></execTime>
+	</historyItem>
+</history>

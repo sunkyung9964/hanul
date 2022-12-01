@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[insert into userTBL (id, name, age, phone, addr, email, reg_date)
+values (4, '이길동', 23, '010-1234-5678','gwangju, seo-gu', 'hong@naver.com', sysdate);]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1668414047299]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>

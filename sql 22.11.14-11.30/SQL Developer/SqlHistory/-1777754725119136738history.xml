@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[insert into writer
+values (1, '홍길동', sysdate,'gildong@naver.com');
+insert into writer
+values (1, '김길동', sysdate,'gildong2222@naver.com');
+insert into writer
+values (1, '박길동', sysdate,'gildong3333@naver.com');]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1669625101539]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.064]]></execTime>
+	</historyItem>
+</history>

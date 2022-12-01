@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT employee_id 사번, last_name 성, salary * 12 연봉
+FROM employees
+WHERE department_id = 80;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1668577472724]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.015]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT *
+FROM LOCATIONS]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669785662251]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[4]]></executed>
+		<execTime><![CDATA[0.004]]></execTime>
+	</historyItem>
+</history>

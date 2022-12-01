@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select e.employee_id, e.first_name, e.department_id,
+     d.department_name
+from employees e inner join departments d
+on e.department_id = d.department_id
+order by e.employee_id;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669617832633]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.005]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,23 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[VALUES (0001, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0002, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0003, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0004, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0005, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0006, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0007, 1, ',고출력 30W 스피커', 1, 20000, sysdate);]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1668415319778]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.057]]></execTime>
+	</historyItem>
+</history>

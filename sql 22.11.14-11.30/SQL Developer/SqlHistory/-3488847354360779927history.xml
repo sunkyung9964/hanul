@@ -1,0 +1,15 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select department_id, department_name
+from departments
+where (department_id, manager_id) in (select department_id, employee_id
+                                        from employees
+                                        where manager_id is null);]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669790761569]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.012]]></execTime>
+	</historyItem>
+</history>

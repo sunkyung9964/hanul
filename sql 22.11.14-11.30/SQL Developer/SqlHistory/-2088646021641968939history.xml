@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/D:/STUDY_ORACLE/예제 게시판2022.11.28.sql]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1669698408748]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

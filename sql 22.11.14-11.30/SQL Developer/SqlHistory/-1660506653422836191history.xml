@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/D:/STUDY_ORACLE/2211-21-6일차.sql]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669010969673]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select employee_id, first_name, last_name, salary
+from employees
+where salary > (select salary
+                from employees
+                where employee_id = 108)
+order by 1;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669709440451]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.004]]></execTime>
+	</historyItem>
+</history>

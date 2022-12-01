@@ -1,0 +1,24 @@
+
+select e.employee_id, e.first_name
+       department_name
+from employees e, departments d
+where e.department_id = d.department_id(+)
+and   e.first_name like '%v%'
+order by 1;
+
+--SELECT  e.employee_id, e.first_name, 
+--        d.department_name
+--FROM    employees e, departments d        
+--WHERE   e.department_id = d.department_id(+)-- 조인 조건절 / Kimberely
+--AND     e.first_name LIKE '%v%' -- 일반 조건절
+--ORDER BY 1; -- 8 rows
+
+
+
+select e.employee_id, e.first_name, e.job_id
+        m.employee_id,        m.first_name, manager_name, m.job_id manager_job_id
+from  employees e, employee m
+where e.manager_id = m.employee_id
+and e.manager_id is not null
+order by 1;
+

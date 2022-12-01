@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select employee_id, first_name, length(first_name) name_length
+from employees
+where first_name like 'a%'
+order by 1]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669098594619]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.01]]></execTime>
+	</historyItem>
+</history>

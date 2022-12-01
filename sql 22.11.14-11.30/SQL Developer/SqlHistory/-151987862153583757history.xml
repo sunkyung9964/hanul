@@ -1,0 +1,24 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[INSERT INTO itemTBL
+VALUES (0001, 1, ',고출력 30W 스피커', 1, 20000, sysdate);
+INSERT INTO itemTBL
+VALUES (0002, 2, ',개발자용 컴퓨터', 1, 565000, sysdate);
+INSERT INTO itemTBL
+VALUES (0003, 3, ',가성비 좋은 슬리퍼', 1, 96800, sysdate);
+INSERT INTO itemTBL
+VALUES (0004, 4, ',짱 좋은 카메라', 1, 450000, sysdate);
+INSERT INTO itemTBL
+VALUES (0005, 5, ',사랑해요 빼빼로', 1, 150000, sysdate);
+INSERT INTO itemTBL
+VALUES (0006, 6, ',명품 지갑', 1, 25000, sysdate);
+INSERT INTO itemTBL
+VALUES (0007, 7, ',명품 가방 나도 들고 싶어', 1, 150000000, sysdate);]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1668415439514]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.032]]></execTime>
+	</historyItem>
+</history>

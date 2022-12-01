@@ -1,0 +1,17 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select employee_id, last_name, department_id, salary
+from employees
+where salary < any (select salary
+                    from employees
+                    where department_id = 70)
+
+order by salary;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669786438681]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.005]]></execTime>
+	</historyItem>
+</history>

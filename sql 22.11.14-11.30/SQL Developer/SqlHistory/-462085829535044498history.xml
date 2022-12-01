@@ -1,0 +1,19 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT  TRUNC(TO_DATE('2013-06-30'),'yyyy') R1,
+        TRUNC(TO_DATE('2013-07-01'),'year') R2,
+        TRUNC(TO_DATE('2013-12-15'),'month') R3,
+        TRUNC(TO_DATE('2013-12-16'),'mm') R4,
+        TRUNC(TO_DATE('2013-05-27 11:59:59','yyyy-mm-dd hh24:mi:ss'),'dd') R5,
+        TRUNC(TO_DATE('2013-05-27 12:00:00','yyyy-mm-dd hh24:mi:ss'),'dd') R6,
+        TRUNC(TO_DATE('2013-05-29'),'day') R7,
+        TRUNC(TO_DATE('2013-05-30'),'day') r8
+from dual;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669106279465]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.003]]></execTime>
+	</historyItem>
+</history>

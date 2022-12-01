@@ -1,0 +1,18 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select e.employee_id, e.first_name, e.department_id,
+        d.department_name,
+        j.job_id, j.job_title
+from  employees e, departments d, jobs j
+where e.department_id = d.department_id
+and e.job_id = j.job_id
+and e.manager_id is not null
+order by 1;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669621634886]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.005]]></execTime>
+	</historyItem>
+</history>

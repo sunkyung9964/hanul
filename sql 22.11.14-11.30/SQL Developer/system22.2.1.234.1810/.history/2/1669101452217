@@ -1,0 +1,19 @@
+SELECT employee_id, first_name, lpad(salary, 15, '$') salary
+from employees
+where department_id = 80;
+
+select employee_id, first_name, phone_number, substr(phone_numberm, 1, 
+from employees
+where department_id in 960, 80, 100)
+order by 
+
+select employee_id, first_name, phone_number,
+    substr(phone_number, 1, instr(phone_number, '.')-1) "local number",
+    substr(phone_number, instr(phone_number, '.')+1) "extra number"
+from     employees
+where department_id in (60, 80, 100)
+order by 1;
+
+
+
+

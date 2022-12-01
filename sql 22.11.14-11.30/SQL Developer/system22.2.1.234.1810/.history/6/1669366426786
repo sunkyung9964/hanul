@@ -1,0 +1,14 @@
+select *
+from employees;
+
+
+
+select *
+from employees, departments;
+
+desc locations;
+
+desc jobs;
+
+select employee_id, first_name, salary, manager_id
+from employees;

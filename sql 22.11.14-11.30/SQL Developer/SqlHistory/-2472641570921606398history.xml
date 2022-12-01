@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select e.employee_id, e.first_name, e.last_name, j.job_title
+from employees e, jobs j
+where e.salary = (select max(salary) from employees)
+and e.job_id = j.job_id;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669784670571]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.06]]></execTime>
+	</historyItem>
+</history>

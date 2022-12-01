@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select e.employee_id, e.first_name
+       department_name
+from employees e, departments d
+where e.employee_id=d.department_id
+and   e.first_name like '%v%'
+order by 1;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1669612650373]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.065]]></execTime>
+	</historyItem>
+</history>

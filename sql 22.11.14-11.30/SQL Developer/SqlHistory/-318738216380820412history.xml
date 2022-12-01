@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[insert into post
+values (0001, '오라클 dbms에 학습하기', 1, sysdate);
+insert into post
+values (0002, '혼자공부하는 ajva 심화', 1, sysdate);
+insert into post
+values (0003, '1인 개발자릐 공부법', 2, sysdate);]]></sql>
+		<connection><![CDATA[hanul]]></connection>
+		<timestamp><![CDATA[1669625288186]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.017]]></execTime>
+	</historyItem>
+</history>

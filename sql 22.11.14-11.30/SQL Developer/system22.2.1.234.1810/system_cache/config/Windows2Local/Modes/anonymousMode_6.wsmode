@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="2.4">
+    <name unique="anonymousMode_6"  />
+  <kind type="view" />
+  <state type="joined"  />
+  <constraints>
+    <path orientation="horizontal" number="20" weight="0.12957157784743992"/>
+    <path orientation="vertical" number="56" weight="0.8714902807775378"/>
+  </constraints>
+  <bounds x="0" y="0" width="0" height="0" />
+  <frame state="0"/>
+    <active-tc  id="NBDC_SEARCH_VIEW_TYPE.oracle-dbtools-raptor-nav-search-Window"  prev-id="NBDC_SEARCH_VIEW_TYPE.oracle-dbtools-raptor-nav-search-Window" />
+    <empty-behavior permanent="true"/>
+</mode>

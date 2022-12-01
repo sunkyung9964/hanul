@@ -1,0 +1,16 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT
+    *
+FROM
+    employees
+WHERE
+    department_id = 80;]]></sql>
+		<connection><![CDATA[hr]]></connection>
+		<timestamp><![CDATA[1668502335281]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.002]]></execTime>
+	</historyItem>
+</history>
